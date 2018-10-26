@@ -1,10 +1,22 @@
 # walk-sync
 
-Super simple generator that returns absolute paths of all files in a folder and subfolders
+Super simple generator that returns absolute paths of all files in a folder and sub-folders
 
 ## Use
 
-Add a usage guide...
+```sh
+npm install @hon2a/walk-sync
+```
+
+```javascript
+import { walkSync } from '@hon2a/walk-sync'
+
+for (const path of walkSync('/path/to/folder')) {
+  console.log(path)
+}
+```
+
+Note that `walkSync` is a generator function, so it needs to be used through the iterator.
 
 ## Development
 
