@@ -22,9 +22,9 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@wisersolutions/eslint-config": "^1.0.3",
+    "@wisersolutions/eslint-config": "^1.0.4",
     "@wisersolutions/eslint-formatter-idea": "^1.0.3",
-    "@wisersolutions/transpile-js": "^0.0.3",
+    "@wisersolutions/transpile-js": "^0.0.6",
     "babel-eslint": "^9.0.0",
     "babel-jest": "^23.6.0",
     "eslint": "^5.16.0",
@@ -34,6 +34,7 @@
     "prettier": "^1.17.1"
   },
   "dependencies": {
-    "@babel/runtime": "^7.4.5"
+    "@babel/runtime": "^7.4.5",
+    "js-yaml": "^3.13.1"
   }
 }
